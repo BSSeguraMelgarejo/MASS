@@ -28,22 +28,13 @@ $(function(){
 	  click: function(){
 	  	if(burguerActive%2==0){
 	  		
-
-	  		/* -ms-transform: translate(50px,100px); 
- 			transform: translate(50px,100px); */
- 			/*$(".nav-responsive").animate({-webkit-transform: "translate(0,0)"},1000);*/
- 			/*$('.nav-responsive').animate({transform: 'translateX(-50px)'});*/
-			/*$(".nav-responsive").css("display","grid");*/
-			/*$('nav-responsive').removeClass('nav-responsive-out');*/
-			 $('.nav-responsive').addClass('in');
 			 $('.nav-area').addClass('heigth');
+			 $(".nav-responsive").fadeIn("slow");
 			
 
 	  	}else{
-	  		/*$(".nav-responsive").css("display", "none");*/
-	  		$('.nav-responsive').removeClass('in');
+	  		$(".nav-responsive").fadeOut("slow");
 	  		$('.nav-area').removeClass('heigth');
-			/*$('nav-responsive').addClass('nav-responsive-out');*/
 	  	}
 	    burguerActive++;
 	  }
