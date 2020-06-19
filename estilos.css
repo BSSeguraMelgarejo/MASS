@@ -1,5 +1,7 @@
 /*Para el parallax del index*/
 
+/*Para el index*/
+
  html, body {
       position: relative;
       height: 100%;
@@ -325,6 +327,19 @@ list-style: none;
 	width: 12em;
 }
 
+
+
+
+/*Para aseo*/
+
+.productos-aside{
+	height: 100vh;
+	overflow: scroll;
+}
+
+.productos-miniatura{
+	max-width: 80%;
+}
 
 /*media queries*/
 @media only screen and (max-width: 768px) {
