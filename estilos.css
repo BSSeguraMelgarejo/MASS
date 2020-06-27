@@ -505,6 +505,10 @@ transition: background 0.1s;
 	background: #0070a538;
 }
 
+.botonGeneral{
+	display: contents;
+}
+
 /*media queries*/
 @media only screen and (max-width: 768px) {
 	
