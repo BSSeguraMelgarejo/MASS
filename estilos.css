@@ -509,6 +509,71 @@ transition: background 0.1s;
 	display: contents;
 }
 
+/*Para nosotros*/
+.tituloNosotros{
+	margin-top: 2.5em;
+	text-align: center;
+	color:#002b61;
+	font-size: 2.5rem;
+}
+
+.fondoMisionFix{
+  /* The image used */
+  background-image: url("img/nosotros/mision2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sobre-nosotros-titulo{
+	text-align: center;
+	color: white;
+    background: #002b61d1;
+    padding: 1em 2em;
+    border-radius: 0 0 2em 0;
+}
+
+.sobre-nosotros-texto{
+	padding: 2em;
+	margin:0;
+	text-align: justify;
+}
+
+
+.fondoVisionFix{
+  /* The image used */
+  background-image: url("img/nosotros/vision.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoValorFix{
+  /* The image used */
+  background-image: url("img/nosotros/valor.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*media queries*/
 @media only screen and (max-width: 768px) {
 	
